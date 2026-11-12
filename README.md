@@ -4,6 +4,27 @@
 
 Выполнил: А.Любошенко
 
+## Технический стек
+
+<p align="left">
+  <a href="https://www.python.org"><img src="https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.12" /></a>
+  <a href="https://pytorch.org"><img src="https://img.shields.io/badge/PyTorch-2.15.0%2Bcpu-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch 2.15.0 CPU" /></a>
+  <a href="https://scikit-learn.org"><img src="https://img.shields.io/badge/scikit--learn-1.9.1-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn 1.9.1" /></a>
+  <a href="https://surpriselib.com"><img src="https://img.shields.io/badge/scikit--surprise-1.1.5-3499CD?style=for-the-badge" alt="scikit-surprise 1.1.5" /></a>
+  <a href="https://numpy.org"><img src="https://img.shields.io/badge/NumPy-2.5.4-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy 2.5.4" /></a>
+  <a href="https://pandas.pydata.org"><img src="https://img.shields.io/badge/pandas-3.1.1-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas 3.1.1" /></a>
+  <a href="https://scipy.org"><img src="https://img.shields.io/badge/SciPy-1.18.1-0C55A5?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy 1.18.1" /></a>
+  <a href="https://github.com/joblib/threadpoolctl"><img src="https://img.shields.io/badge/threadpoolctl-3.8.0-6C757D?style=for-the-badge" alt="threadpoolctl 3.8.0" /></a>
+  <a href="https://matplotlib.org"><img src="https://img.shields.io/badge/Matplotlib-3.11.2-11557C?style=for-the-badge" alt="Matplotlib 3.11.2" /></a>
+  <a href="https://seaborn.pydata.org"><img src="https://img.shields.io/badge/seaborn-0.13.2-4C72B0?style=for-the-badge" alt="seaborn 0.13.2" /></a>
+  <a href="https://jupyter.org"><img src="https://img.shields.io/badge/Jupyter-1.1.1-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter 1.1.1" /></a>
+  <a href="https://ipykernel.readthedocs.io"><img src="https://img.shields.io/badge/ipykernel-7.4.0-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="ipykernel 7.4.0" /></a>
+  <a href="https://www.kaggle.com/datasets/zygmunt/goodbooks-10k"><img src="https://img.shields.io/badge/Dataset-Goodbooks--10k-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Goodbooks-10k dataset on Kaggle" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-3DA639?style=for-the-badge" alt="MIT License" /></a>
+</p>
+
+---
+
 ## О проекте
 
 Проект продолжает домашнее задание [Prototype_of_a_book_recommendation_service](https://github.com/Liuboshenko/Prototype_of_a_book_recommendation_service/tree/master), в котором на датасете Goodbooks-10k были реализованы и сравнены Popularity, Content-based (TF-IDF), Item-based CF, SVD и PureSVD. Лучшей там оказалась Item-CF с сортировкой по сумме "схожесть x оценка" (nDCG@10 = 0.2154).

@@ -1,0 +1,26 @@
+# Зависимости итогового проекта "Гибридная система рекомендаций книг" (Python 3.12)
+# Версии совпадают с домашним заданием (Prototype_of_a_book_recommendation_service), добавлен PyTorch
+
+# PyTorch ставим CPU-сборку с индекса PyTorch (CUDA-сборка весит около 2.5 ГБ и для этой задачи не нужна)
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# Данные и вычисления
+numpy==2.5.4
+pandas==3.1.1
+scipy==1.18.1
+
+# Модели и метрики
+scikit-learn==1.9.1
+scikit-surprise==1.1.5
+torch==2.15.0+cpu
+
+# Ограничение числа потоков BLAS (чтобы расчёты не занимали все ядра)
+threadpoolctl==3.8.0
+
+# Визуализация
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# Jupyter
+jupyter==1.1.1
+ipykernel==7.4.0
